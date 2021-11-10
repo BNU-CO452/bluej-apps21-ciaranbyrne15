@@ -1,25 +1,27 @@
 
 /**
- * This class represents a module in a course
+ * This class represents a module in a course and credit value of a module
  *
  * @author Ciaran Byrne
- * @version 1.0
+ * @version 10/11/2021
  */
 public class Module
 {
     // Variables
-    private String code; CO452
+    private String code;
     
-    private String title; Programming Concepts 
+    private String title;
     
-    private int credit; 0
+    private int credit; 
 
     /**
      * Constructor for objects of class Module
      */
-    public Module()
+    public Module(String code, String title)
     {
-        credit = 15;
+        this.code = code;
+        this.title = title;
+        this.credit = 15;
     }
 
     /**
