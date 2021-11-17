@@ -4,19 +4,19 @@ import java.util.*;
  * It holds the student details relevant in our context.
  * 
  * @author Michael Kölling and David Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2021-08-18
+ * Modified by Ciaran Byrne
+ * @version 7/11/2021
  */
 public class Student
 {
     // the student ID
-    private int id;
+    private int id; 
     // the student's full name
-    private String name;
+    private String name; 
     // The course the student is enrolled on
-    private Course course;
+    private Course course; 
     // The marks awarded for the modules on the course
-    private ArrayList<ModuleMark> marks;
+    private ArrayList<ModuleMark> marks; 
     
     /**
      * This constructor creates a new student with a
@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Ciaran", 22133695);
     }
     
     /**
@@ -32,8 +32,8 @@ public class Student
      */
     public Student(String name, int id)
     {
-        this.name = name;
-        this.id = id;
+        this.name = name; 
+        this.id = id; 
         
         marks = new ArrayList<ModuleMark>();
     }
